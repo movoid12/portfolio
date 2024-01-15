@@ -39,6 +39,7 @@ const TechSTack = () => (
 				<p>Postgresql</p>
 			</div>
 			<div className="tech-stack-item">
+				{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
 				<svg
 					fill="none"
 					strokeLinecap="square"

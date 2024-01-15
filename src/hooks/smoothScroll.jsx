@@ -32,10 +32,10 @@ export default class Scrollbar extends React.Component {
 	getChildContext() {
 		return {
 			getScrollbar: (cb) => {
-				if (typeof cb !== "function") return;
+				if (typeof cb !== "function") { return; }
 
-				if (this.scrollbar) setTimeout(() => cb(this.scrollbar));
-				else this.callbacks.push(cb);
+				if (this.scrollbar) { setTimeout(() => cb(this.scrollbar)); }
+				else { this.callbacks.push(cb); }
 			},
 		};
 	}
@@ -58,7 +58,7 @@ export default class Scrollbar extends React.Component {
 
 	componentDidUpdate(nextProps) {
 		for (const key in nextProps) {
-			if (!(key in this.scrollbar.options)) continue;
+			if (!(key in this.scrollbar.options)) { continue; }
 
 			if (key === "plugins") {
 				// update plugin options
