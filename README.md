@@ -1,7 +1,9 @@
 [![Netlify badge](https://api.netlify.com/api/v1/badges/470e52d0-4d03-4935-b493-76c00166a3da/deploy-status)](https://rickymormor.engineer/)
+
 # MY PERSONAL PORTFOLIO
 
 ## Click on the badge below to see the deployed version of the site.
+
 [![Netlify badge](https://api.netlify.com/api/v1/badges/470e52d0-4d03-4935-b493-76c00166a3da/deploy-status)](https://rickymormor.engineer/)
 
 ![screenshot](./src/assets/images/CPT2207081821-720x354.gif)
@@ -14,7 +16,6 @@
 - React Three Fiber
 - Material-UI
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -25,13 +26,13 @@ To get a local copy up and running follow these simple example steps.
 - [Node.js](https://nodejs.org/en/)
 - Web browser
 - Code Editor
+
 ### Setup
 
 - Clone repository using this command in terminal ` git clone https://github.com/cwaku/portfolio.git`
 - Change directory to the cloned repository `cd portfolio`
 - Install dependencies using `npm install`
 - run `npm start`
-
 
 ## Available Scripts
 
@@ -48,6 +49,7 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -87,4 +89,5 @@ Feel free to check the [issues page](https://github.com/cwaku/portfolio/issues).
 Give a ⭐️ if you like this project!
 
 ## 📝 License
+
 [MIT License](https://github.com/cwaku/portfolio/blob/develop/LICENSE)
