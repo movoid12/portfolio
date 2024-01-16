@@ -51,7 +51,6 @@ const Navbar = (props) => {
 	};
 
 	return (
-		// eslint-disable-next-line react/jsx-props-no-spreading
 		<HideOnScroll {...props}>
 			<AppBar
 				sx={{

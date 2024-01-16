@@ -1,4 +1,3 @@
-/* eslint-disable global-require */
 import "../../stylesheets/Skills.css";
 
 const Skills = () => (
@@ -8,7 +7,7 @@ const Skills = () => (
 			<div className="skills__container__skills__skill">
 				<img
 					loading="lazy"
-					src={require("../../assets/images/device-mobile.png")}
+					src=".././assets/images/device-mobile.png"
 					alt="mobile-device"
 					className="skills__container__skills__skill__image"
 				/>
@@ -25,7 +24,7 @@ const Skills = () => (
 			<div className="skills__container__skills__skill">
 				<img
 					loading="lazy"
-					src={require("../../assets/images/Icon.png")}
+					src="../../assets/images/Icon.png"
 					alt="Icon"
 					className="skills__container__skills__skill__image"
 				/>
@@ -41,7 +40,7 @@ const Skills = () => (
 			<div className="skills__container__skills__skill">
 				<img
 					loading="lazy"
-					src={require("../../assets/images/speakerphone.png")}
+					src="../../assets/images/speakerphone.png"
 					alt="speakerphone"
 					className="skills__container__skills__skill__image"
 				/>
@@ -59,7 +58,7 @@ const Skills = () => (
 			<div className="skills__container__skills__skill">
 				<img
 					loading="lazy"
-					src={require("../../assets/images/Icon (1).png")}
+					src="../../assets/images/Icon (1).png"
 					alt="Icon(1)"
 					className="skills__container__skills__skill__image"
 				/>
@@ -77,7 +76,7 @@ const Skills = () => (
 			<div className="skills__container__skills__skill">
 				<img
 					loading="lazy"
-					src={require("../../assets/images/Icon (2).png")}
+					src="../../assets/images/Icon (2).png"
 					alt="Icon(2)"
 					className="skills__container__skills__skill__image"
 				/>
@@ -93,7 +92,7 @@ const Skills = () => (
 			<div className="skills__container__skills__skill">
 				<img
 					loading="lazy"
-					src={require("../../assets/images/code.png")}
+					src="../../assets/images/code.png"
 					alt="code"
 					className="skills__container__skills__skill__image"
 				/>

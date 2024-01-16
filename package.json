@@ -1,50 +1,51 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@formspree/react": "^2.2.5",
-    "@mui/icons-material": "^5.8.3",
-    "@mui/material": "^5.8.3",
-    "@octokit/core": "^4.0.5",
-    "@pmndrs/branding": "0.0.8",
-    "@react-three/drei": "8.8.3",
-    "@react-three/fiber": "7.0.25",
-    "@types/three": "0.136.1",
-    "framer-motion": "^6.3.11",
-    "lamina": "1.0.5",
-    "prop-types": "^15.8.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-icons": "^4.4.0",
-    "react-router": "^6.3.0",
-    "react-router-dom": "^6.3.0",
-    "react-spinners": "^0.13.3",
-    "react-typewriter-effect": "^1.1.0",
-    "smooth-scrollbar": "^8.7.4",
-    "styled-components": "^5.3.6",
-    "three": "0.137.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "eject": "vite eject",
-    "format": "biome format --write ./src",
-    "check:format": "biome format ./src",
-    "lint": "biome lint ./src",
-    "lint:fix": "biome check --apply ./src"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.5.2",
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.0.11"
-  },
-  "pnpm": {
-    "overrides": {
-      "glob-parent@<5.1.2": ">=5.1.2"
-    }
-  }
+	"name": "portfolio",
+	"version": "0.1.0",
+	"type": "module",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.9.0",
+		"@emotion/styled": "^11.8.1",
+		"@formspree/react": "^2.2.5",
+		"@mui/icons-material": "^5.8.3",
+		"@mui/material": "^5.8.3",
+		"@octokit/core": "^4.0.5",
+		"@pmndrs/branding": "0.0.8",
+		"@react-three/drei": "8.8.3",
+		"@react-three/fiber": "7.0.25",
+		"@types/three": "0.136.1",
+		"framer-motion": "^6.3.11",
+		"lamina": "1.0.5",
+		"prop-types": "^15.8.1",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"react-icons": "^4.4.0",
+		"react-router": "^6.3.0",
+		"react-router-dom": "^6.3.0",
+		"react-spinners": "^0.13.3",
+		"react-typewriter-effect": "^1.1.0",
+		"smooth-scrollbar": "^8.7.4",
+		"styled-components": "^5.3.6",
+		"three": "0.137.5",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"eject": "vite eject",
+		"format": "biome format --write ./src",
+		"check:format": "biome format ./src",
+		"lint": "biome lint ./src",
+		"lint:fix": "biome check --apply ./src"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.5.2",
+		"@vitejs/plugin-react": "^4.2.1",
+		"vite": "^5.0.11"
+	},
+	"pnpm": {
+		"overrides": {
+			"glob-parent@<5.1.2": ">=5.1.2"
+		}
+	}
 }

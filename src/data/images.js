@@ -1,6 +1,5 @@
-const imageUrl = require("../assets/images/pexels-monstera-5841842.jpg");
+import imageUrl from '.././assets/images/pexels-monstera-5841842.jpg'
 
-// eslint-disable-next-line import/prefer-default-export
 export const projectImages = [
 	{
 		name: "portfolio",

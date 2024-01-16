@@ -1,11 +1,8 @@
-/* eslint-disable react/prop-types */
-
 import React from "react";
 
 import { projectImages } from "../../data/images";
 import "../../stylesheets/Skills.css";
 
-// eslint-disable-next-line react/prop-types
 const Projects = ({ projects }) => (
 	<div className="projects__container" id="projects">
 		<h1 className="projects__container__title">Projects</h1>

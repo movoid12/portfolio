@@ -1,8 +1,6 @@
-/* eslint-disable react/prop-types */
 import {
 	Avatar,
 	Box,
-	// Container,
 	Flex,
 	Icon,
 	SimpleGrid,
@@ -159,7 +157,6 @@ export default function GridBlurredBackdrop() {
 			</Box>
 			<SimpleGrid columns={{ base: 1, xl: 2 }} spacing="20" mt={16} mx="auto">
 				{testimonials.map((cardInfo, index) => (
-					// eslint-disable-next-line react/jsx-key, react/jsx-props-no-spreading
 					<TestimonialCard {...cardInfo} index={index} />
 				))}
 			</SimpleGrid>

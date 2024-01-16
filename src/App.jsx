@@ -1,13 +1,12 @@
-/* eslint-disable import/extensions */
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router";
 
-import { Octokit } from "@octokit/core";
+// import { Octokit } from "@octokit/core";
 
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import SmoothScrollbar from "smooth-scrollbar";
 import OverscrollPlugin from "smooth-scrollbar/plugins/overscroll";
-import { GITHUB_TOKEN, GITHUB_USERNAME } from "./apiKeys";
+// import { GITHUB_TOKEN, GITHUB_USERNAME } from "./apiKeys";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import About from "./pages/About";
@@ -28,12 +27,12 @@ const overscrollOptions = {
 };
 
 function App() {
-	const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState(false);
 	const [projects, setProjects] = React.useState([]);
 
-	const octokit = new Octokit({ auth: GITHUB_TOKEN });
+	// const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
-	useEffect(() => {
+	/* 	useEffect(() => {
 		octokit
 			.request("GET /user/starred", {
 				affiliation: "owner",
@@ -49,35 +48,31 @@ function App() {
 				setProjects(myRepositories);
 				setLoading(false);
 			});
-	}, []);
+	}, []); */
 
 	return (
 		<>
 			<div className="App">
-				{loading ? (
-					<ClimbingBoxLoader color="#5c62ec" loading={loading} size={30} />
-				) : (
-					<>
-						<Navbar />
-						<CustomCursor />
-						<Scrollbar
-							className="scroll-container"
-							damping={0.1}
-							thumbMinSize={10}
-							plugins={{
-								overscroll: { ...overscrollOptions },
-							}}
-						>
-							<Routes>
-								<Route path="/" element={<Home projects={projects} />} />
-								<Route path="/home" element={<Home projects={projects} />} />
-								<Route path="/about" element={<About />} />
-								<Route path="/contact" element={<Contact />} />
-							</Routes>
-							<Footer />
-						</Scrollbar>
-					</>
-				)}
+				<>
+					<Navbar />
+					<CustomCursor />
+					<Scrollbar
+						className="scroll-container"
+						damping={0.1}
+						thumbMinSize={10}
+						plugins={{
+							overscroll: { ...overscrollOptions },
+						}}
+					>
+						<Routes>
+							<Route path="/" element={<Home projects={projects} />} />
+							<Route path="/home" element={<Home projects={projects} />} />
+							<Route path="/about" element={<About />} />
+							<Route path="/contact" element={<Contact />} />
+						</Routes>
+						<Footer />
+					</Scrollbar>
+				</>
 			</div>
 		</>
 	);

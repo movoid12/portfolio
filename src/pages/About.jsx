@@ -44,8 +44,7 @@ const About = () => (
 			<div className="about__container__image">
 				<img
 					style={{ borderRadius: "50%" }}
-					// eslint-disable-next-line global-require
-					src={require("../assets/images/use.jpeg")}
+					src="../assets/images/use.jpeg"
 					alt="about-me"
 					className="about__container__image__image"
 					loading="lazy"

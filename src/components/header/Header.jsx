@@ -129,7 +129,7 @@ const Header = () => (
 				<Bg />
 				<Suspense fallback={null}>
 					<Noodles />
-					<Caption>Ricky Mormor.</Caption>
+					<Caption>Mouaz Aldakkak</Caption>
 					<Rig />
 				</Suspense>
 			</Canvas>
@@ -145,9 +145,7 @@ const Header = () => (
 						multiText={[
 							"Full-stack Developer",
 							"Front-end Developer",
-							"Back-end Developer",
 							"Technical Support Engineer",
-							"Mentor",
 						]}
 						multiTextDelay={3000}
 						multiTextLoop
