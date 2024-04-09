@@ -26,7 +26,7 @@ footer ul a {
 }
 
 .footer__container__left a {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -84,7 +84,7 @@ ul {
 
 .footer__container__second,
 .social__links {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
